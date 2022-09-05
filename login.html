@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="login.css" />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+  </head>
+  <body>
+    <video autoplay muted loop id="myVideo">
+      <source src="back1.mp4" type="video/mp4" />
+    </video>
+    <div class="container">
+      <div class="card">
+        <p id="print"></p>
+        <div class="inner-box" id="card">
+          <div class="card-front">
+            <h2>LOGIN</h2>
+            <form action="logins.php" method="POST">
+              <input
+                type="varchar"
+                placeholder="Enter your usn"
+                class="input-box"
+                id="s_usn"
+                name="s_usn"
+                required
+              />
+              <input
+                type="password"
+                placeholder="Password"
+                class="input-box"
+                name="s_password"
+                required
+              />
+              <button
+                type="submit"
+                class="submit-btn"
+                name="bb"
+                onclick="Submit()"
+              >
+                Submit
+              </button>
+              <input type="checkbox" /><span>Remember Me</span>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

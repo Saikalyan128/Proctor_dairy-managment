@@ -1,0 +1,101 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -300px;
+  margin-top: -250px;
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  background: #ca7c4e;
+  color: burlywood;
+  background: linear-gradient(
+    87.4deg,
+    rgb(255, 241, 165) 1.9%,
+    rgb(200, 125, 76) 49.7%,
+    rgb(83, 54, 54) 100.5%
+  );
+}
+
+.card {
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  height: 400px;
+  width: 450px;
+  background: #fff;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
+}
+
+.profile {
+  float: left;
+  width: 260px;
+  height: 320px;
+  text-align: center;
+}
+
+.img {
+  position: relative;
+  border-radius: 50%;
+  height: 150px;
+}
+
+.name {
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.job {
+  font-size: 14px;
+  padding: 5px;
+  line-height: 5px;
+}
+
+.btn {
+  display: block;
+  width: 120px;
+  margin: 0 auto 10px auto;
+  border: 1px solid burlywood;
+  border-radius: 20px;
+  color: burlywood;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: burlywood;
+  color: aliceblue;
+}
+
+.stats {
+  float: right;
+  width: 180px;
+}
+
+.box {
+  box-sizing: border-box;
+  width: 180px;
+  height: 199px;
+  background: #f5e8df;
+  text-align: center;
+  padding-top: 28px;
+  transition: all 0.4s ease-in-out;
+}
+
+.box:hover {
+  background: #e1cfc2;
+  cursor: pointer;
+}
+
+.box:nth-child(2) {
+  margin: 1px 0;
+}
+
+span {
+  display: block;
+}
+
+.parameter {
+  font-size: 12px;
+}
